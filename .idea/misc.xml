@@ -1,7 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Coffee-Cake/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Coffee-Cake/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Coffee-Cake/app/src/main/res/layout/fragment_drinks_table.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Coffee-Cake/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Code/Coffee-Cake/app/src/main/res/layout/fragment_staff.xml" value="0.25416666666666665" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1535" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/circle_img.xml" value="0.163" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/circle_img_blue_dam.xml" value="0.153" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/circle_img_green_nhat.xml" value="0.153" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/cut_card_bg.xml" value="0.1535" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic__bar_chart_.xml" value="0.145" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_add.xml" value="0.1555" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_arrow_back_ios.xml" value="0.153" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_bar_chart.xml" value="0.1535" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_baseline_exit_to_app_blue.xml" value="0.1535" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.145" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.149" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_email.xml" value="0.16799999999999998" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_exit_to_app.xml" value="0.1535" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_help.xml" value="0.163" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_home.xml" value="0.1535" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1535" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_message.xml" value="0.153" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_phone.xml" value="0.153" />
+<<<<<<< HEAD
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_restaurant_menu.xml" value="0.1745" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_search.xml" value="0.1745" />
+=======
+>>>>>>> 11b16ab4b43026c892d8fa1e742d809c8d5e7898
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_settings.xml" value="0.1535" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/ic_wave.xml" value="0.149" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/layout_nav_header.xml" value="0.163" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/round_bg.xml" value="0.149" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/round_bg2.xml" value="0.16" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/round_bg_white.xml" value="0.153" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/round_bg_white_min.xml" value="0.153" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/drawable/round_boder.xml" value="0.149" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+<<<<<<< HEAD
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment__menu.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_coffee.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_drinks_table.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_home.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_info_staff.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_menu_coffee.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_menu_smoothie.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_menu_teamilk.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_menu_topping.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_order.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_staff.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_staff_info.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/fragment_statistic.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/home_slide_items.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_add_drink.xml" value="0.24635416666666668" />
+=======
+>>>>>>> 11b16ab4b43026c892d8fa1e742d809c8d5e7898
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_add_food.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_add_staff.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_add_table.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_add_table_food.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_drinks_table.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_edit_staff.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_food.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_home.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_info_staff.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_menu.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_menu_drinks.xml" value="0.24635416666666668" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_nav_header.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_order.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_staff_manage.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/layout/layout_table_food.xml" value="0.264" />
+        <entry key="..\:/Coffee-Cake/app/src/main/res/menu/menu.xml" value="0.24635416666666668" />
+        <entry key="..\:/JavAProj/Coffee-Cake/app/src/main/res/layout/activity_main.xml" value="0.24728260869565216" />
+        <entry key="..\:/JavAProj/Coffee-Cake/app/src/main/res/layout/fragment_drinks_table.xml" value="0.371875" />
+        <entry key="..\:/JavAProj/Coffee-Cake/app/src/main/res/layout/fragment_home.xml" value="0.371875" />
+        <entry key="..\:/JavAProj/Coffee-Cake/app/src/main/res/layout/fragment_staff.xml" value="0.371875" />
+        <entry key="..\:/JavAProj/Coffee-Cake/app/src/main/res/layout/fragment_statistic.xml" value="0.371875" />
+        <entry key="..\:/JavAProj/Coffee-Cake/app/src/main/res/layout/layout_add_food.xml" value="0.371875" />
+        <entry key="..\:/JavAProj/Coffee-Cake/app/src/main/res/layout/layout_add_table_food.xml" value="0.371875" />
+        <entry key="..\:/JavAProj/Coffee-Cake/app/src/main/res/layout/layout_edit_staff.xml" value="0.371875" />
+        <entry key="..\:/JavAProj/CoffeeCake/app/src/main/res/layout/activity_main.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

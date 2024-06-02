@@ -1,4 +1,4 @@
-package com.example.contraicung;
+package com.example.coffee_cake;
 
 import org.junit.Test;
 
