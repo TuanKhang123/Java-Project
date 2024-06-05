@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F4E5C4"
+    android:orientation="vertical"
+    tools:context=".Fragment_statistic">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/layoutToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thống kê "
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bán hàng "
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/color_main"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="6dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:background="@color/trangduc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:scrollbarThumbHorizontal="@null">
+
+                    <RadioGroup
+                        android:id="@+id/radioGr"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="10dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <RadioButton
+                            android:id="@+id/one_week"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="12dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_radio_button"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="7 ngày trước"
+                            android:textColor="@drawable/radio_text"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/four_week"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="12dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_radio_button"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Tháng trước"
+                            android:textColor="@drawable/radio_text"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/lastyear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="12dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_radio_button"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Năm trước"
+                            android:textColor="@drawable/radio_text"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/ytd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_radio_button"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Đầu năm đến nay"
+                            android:textColor="@drawable/radio_text"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_radio_button"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="hh"
+                            android:textColor="@drawable/radio_text"
+                            android:textSize="14sp"
+                            android:visibility="invisible" />
+                    </RadioGroup>
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="12dp"
+                    app:cardElevation="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="174dp"
+                    app:cardCornerRadius="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tổng cộng:"
+                            android:layout_marginTop="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/dennhat"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="18sp"/>
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_marginTop="8dp"
+                                android:id="@+id/summarytv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/light_blue"
+                                android:text="0"
+                                android:layout_gravity="center_horizontal"
+                                android:textStyle="bold"
+                                android:textSize="28sp"/>
+                            <TextView
+                                android:layout_marginLeft="4dp"
+                                android:text="đ"
+                                android:textColor="@color/light_blue"
+                                android:textStyle="bold"
+                                android:textSize="28sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="3px"
+                            android:background="@color/light_gray"/>
+                        <GridLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:columnCount="2">
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_column="0"
+                                android:layout_columnWeight="1"
+                                android:layout_gravity="center_horizontal">
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginVertical="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:text="Trung bình"/>
+                                <LinearLayout
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:id="@+id/avgtv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="20sp"
+                                        android:textColor="@color/dennhat"
+                                        android:text="0"/>
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="đ"
+                                        android:textSize="20sp"
+                                        android:textColor="@color/dennhat"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_column="1"
+                                android:layout_columnWeight="1"
+                                android:layout_gravity="center_horizontal">
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginVertical="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:text="Cao nhất"/>
+                                <LinearLayout
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:id="@+id/peaktv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:textSize="20sp"
+                                        android:textColor="@color/dennhat"
+                                        android:text="0"/>
+                                    <TextView
+                                        android:layout_marginLeft="4dp"
+                                        android:text="đ"
+                                        android:textSize="20sp"
+                                        android:textColor="@color/dennhat"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </GridLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="4dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="8dp">
+                    <com.github.mikephil.charting.charts.BarChart
+                        android:id="@+id/barChart"
+                        android:layout_margin="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="340dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="* "
+                        android:textSize="16sp"
+                        android:textColor="@color/red"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/dennhat"
+                        android:text="Đơn vị: VNĐ"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
